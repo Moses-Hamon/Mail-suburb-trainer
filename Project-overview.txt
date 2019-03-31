@@ -1,0 +1,25 @@
+Mail Suburb Trainer
+
+Purpose - 
+Assist employees with interactive learning for Sub sort for BGF ( Brisbane gateway facility ).
+
+Application -
+Provide simple Gui displaying Subs and destination.
+
+Functionality -
+Ability to sort suburbs by destination
+Ability to sort suburbs by alphabetical order
+Randomise and provide functionality for user to self test
+Option to learn or test.
+
+GUI -
+Simple gui
+Buttons for navigation
+Tap suburb to view destination
+
+
+Database - 
+-- Find best way to store lists in DB 
+
+
+
