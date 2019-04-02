@@ -1,25 +1,36 @@
 Mail Suburb Trainer
 
-Purpose - 
+-- Tech Stack -- 
+AWS EC2 - Web server hosting application.
+CouchDB - Database for storing data and possibly users.
+React/JavaScript - Frontend framework/langauge.
+
+-- Purpose --
 Assist employees with interactive learning for Sub sort for BGF ( Brisbane gateway facility ).
 
-Application -
+-- Application --
 Provide simple Gui displaying Subs and destination.
 
-Functionality -
-Ability to sort suburbs by destination
-Ability to sort suburbs by alphabetical order
-Randomise and provide functionality for user to self test
-Option to learn or test.
+-- Functionality --
+Ability to sort suburbs by destination.
+Ability to sort suburbs by alphabetical order.
+Randomise and provide functionality for user to self test.
+Option to learn suburbs or start a test.
 
-GUI -
+-- GUI --
 Simple gui
 Buttons for navigation
+Sort buttons
 Tap suburb to view destination
 
+-- Sub List Storage --
+Option1 -   Memory (RAM). 
+            Itital list can be pulled from database.
+            New lists can be sorted and displayed from memory.
 
-Database - 
--- Find best way to store lists in DB 
+Option 2 -  Database (couchDB)
+            Database can query each sort and use it for the application.
+            Find best way to store lists in DB.
 
 
 
